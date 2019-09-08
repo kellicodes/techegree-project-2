@@ -71,6 +71,15 @@ a {
     float: right;
 }
 
+.nav-home,
+.nav-contact,
+.nav-portfolio{
+    padding: 20px 20px;
+    float: right;
+    visibility: hidden;
+
+}
+
 @media (min-width: 768px) {
     .list li {
         display: inline-block;
@@ -159,6 +168,7 @@ a {
         text-align: left;
         padding-top: 30px;
         padding-bottom: 50px;
+       
     }
 
     .profile-img{
@@ -200,6 +210,18 @@ a {
     }
     .main-footer {
         margin: 0;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .nav-home,
+    .nav-contact,
+    .nav-portfolio{
+        padding: 20px 20px;
+        float: right;
+        visibility: visible;
     }
     .clearfix::after {
         content: "";
